@@ -19,21 +19,18 @@
 wget -N --no-check-certificate https://raw.githubusercontent.com/huluwa5935/shadowsocks_install/master/ssr-install.sh && bash ssr-install.sh
 ```
 安装完后会直接提示新增用户：
-1. 输入密码，默认91yun.org：
-![2oUR.png](https://www.91yuntu.org/images/2017/06/10/2oUR.png)
+1. 输入密码，默认huluwa5935：
+![ssr1.png](https://www.souyuba.com/wp-content/uploads/2017/07/ssr1.png)
 
 
 2. 输入端口：
-![2sMt.png](https://www.91yuntu.org/images/2017/06/10/2sMt.png)
+![ssr2.png](https://www.souyuba.com/wp-content/uploads/2017/07/ssr2.png)
 
 
 3. 按任意键开始安装：
-![2Ziu.png](https://www.91yuntu.org/images/2017/06/10/2Ziu.png)
+![ssr3.png](https://www.souyuba.com/wp-content/uploads/2017/07/ssr3.png)
 
 
-4. 最后复制ssr链接就可以方便的导入ssr客户端了：
-![2lQk.png](https://www.91yuntu.org/images/2017/06/10/2lQk.png)
-![2zs2.png](https://www.91yuntu.org/images/2017/06/10/2zs2.png)
 
 &nbsp;
 
@@ -56,8 +53,8 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/huluwa5935/shad
 "enable": 1,
 "method": "chacha20",
 "obfs": "tls1.2_ticket_auth_compatible",
-"passwd": "91yun.org",
-"port": 9191,
+"passwd": "huluwa5935",
+"port": 5935,
 "protocol": "auth_sha1_v4_compatible",
 "transfer_enable": 9007199254740992,
 "u": 0,
