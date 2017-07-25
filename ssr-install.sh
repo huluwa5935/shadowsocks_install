@@ -94,12 +94,12 @@ sed -i "s/127.0.0.1/$myip/g" ${ssrdir}userapiconfig.py
 
 #下载服务文件，添加到系统服务，并随机启动
 if [ "$OS" == 'CentOS' ]; then
-	if ! wget --no-check-certificate https://raw.githubusercontent.com/91yun/shadowsocks_install/master/ssr -O /etc/init.d/ssr; then
+	if ! wget --no-check-certificate https://raw.githubusercontent.com/huluwa5935/shadowsocks_install/master/ssr -O /etc/init.d/ssr; then
 		echo "Failed to download ssr chkconfig file!"
 		exit 1
 	fi
 else
-	if ! wget --no-check-certificate https://raw.githubusercontent.com/91yun/shadowsocks_install/master/ssr-debian -O /etc/init.d/ssr; then
+	if ! wget --no-check-certificate https://raw.githubusercontent.com/huluwa5935/shadowsocks_install/master/ssr-debian -O /etc/init.d/ssr; then
 		echo "Failed to download ssr chkconfig file!"
 		exit 1
 	fi
