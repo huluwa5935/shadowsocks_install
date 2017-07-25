@@ -75,10 +75,7 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/huluwa5935/shad
 
 大家可以自己视情况修改。
 
-# 如果新的有问题，大家依然可以使用旧的安装方式：
-```
-wget -N --no-check-certificate https://raw.githubusercontent.com/91yun/shadowsocks_install/master/shadowsocksR.sh && bash shadowsocksR.sh
-```
+
 - 默认加密为： chacha20
 - 默认协议为： auth_sha1_v4
 - 默认混淆为： tls1.2_ticket_auth
