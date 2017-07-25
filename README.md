@@ -48,19 +48,20 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/huluwa5935/shad
 修改`vi /home/ssr/mudb.json`文件
 ```
 [
-{
-"d": 0,
-"enable": 1,
-"method": "chacha20",
-"obfs": "tls1.2_ticket_auth_compatible",
-"passwd": "huluwa5935",
-"port": 5935,
-"protocol": "auth_sha1_v4_compatible",
-"transfer_enable": 9007199254740992,
-"u": 0,
-"user": "9191"
-}
+    {
+        "d": 0,
+        "enable": 1,
+        "method": "chacha20",
+        "obfs": "tls1.2_ticket_auth_compatible",
+        "passwd": "huluwa5935",
+        "port": 5935,
+        "protocol": "auth_sha1_v4_compatible",
+        "transfer_enable": 9007199254740992,
+        "u": 0,
+        "user": "5935"
+    }
 ]
+
 ```
 几个参数的说明：
 - method：加密方法
